@@ -56,6 +56,15 @@ Location regions are defined as:
 
 If the user refers to any of these location regions by name (such as 'resting area', 'feeding area', or 'water troughs'), map them to the correct location coordinates.
 
+IMPORTANT FORMATTING RULES:
+1. Your response must contain ONLY Python code within a single ```python code block.
+2. Do not include any commentary, markdown formatting, or explanations outside the code block.
+3. Use standard ASCII characters for operators (use >= instead of ≥, <= instead of ≤).
+4. Use Python comments (#) for any explanations within the code.
+5. Ensure proper indentation and no line breaks within logical statements.
+6. Do not use bold text or other markdown formatting inside the code.
+7. Make sure your code is complete and can be executed as-is.
+
 **Guidelines for Generating Code:**
 1. Ensure `timestamp` is treated as a datetime using `pd.to_datetime()`.
 2. Use `.between()` for coordinate range filtering instead of `.apply(lambda x: x.between())`, which is inefficient.
