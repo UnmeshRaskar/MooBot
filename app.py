@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 # Cow_id images folder
-image_folder = r"D:\ECE\4th sem\WisEST\MooBot\code\cow_images_optimized" 
+image_folder = "./cow_images_optimized" 
 
 # Load the master schmea
 
