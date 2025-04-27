@@ -23,7 +23,7 @@ st.write("Ask me anything about your cattle!")
 # Load the master schema CSV (ensure your CSV file path is correct)
 try:
     # st.write("Loading master schema CSV...")
-    master_schema = pd.read_csv(r".\combined_intersection_df.csv")  # Replace with your actual path
+    master_schema = pd.read_csv("combined_intersection_df.csv")  # Replace with your actual path
     # st.write("Master schema loaded successfully!")
 except Exception as e:
     st.write(f"Error loading master schema: {e}")
