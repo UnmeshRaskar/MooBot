@@ -197,7 +197,7 @@ def process_data_query(query):
 
         # Get the generated code from OpenAI response
         generated_code = completion.choices[0].message.content
-        st.write(f"Generated Code: {generated_code}")  # Debugging line
+        # st.write(f"Generated Code: {generated_code}")  # Debugging line
 
         # Extract only the Python code part
         python_code = re.search(r'```python\n(.*?)```', generated_code, re.DOTALL)
