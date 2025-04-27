@@ -10,7 +10,10 @@ image_folder = r"D:\ECE\4th sem\WisEST\MooBot\code\cow_images_optimized"
 
 # Load the master schmea
 
-OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+# Initialize OpenAI Client
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY")
+)
 
 # Initialize OpenAI clientW
 
