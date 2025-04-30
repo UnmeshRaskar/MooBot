@@ -16,8 +16,11 @@ client = OpenAI(
 # App title
 st.set_page_config(page_title="MooBot Chatbot")
 
-st.title("🐄 MooBot: Dairy Farm Chatbot")
-st.write("Ask me anything about your cattle!")
+# st.title("🐄 MooBot: Dairy Farm Chatbot")
+# st.write("Ask me anything about your cattle!")
+st.markdown("<h1 style='font-size: 60px;'>🐄 MooBot: Dairy Farm Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size: 24px;'>Ask me anything about your cattle!</p>", unsafe_allow_html=True)
+
 
 # Load the master schema CSV
 try:
